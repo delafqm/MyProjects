@@ -7,8 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MediatR\**" />
+    <Content Remove="MediatR\**" />
+    <EmbeddedResource Remove="MediatR\**" />
+    <None Remove="MediatR\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediatRHandlerClass\MediatRHandlerClass.csproj" />
   </ItemGroup>
 
 </Project>
