@@ -39,9 +39,10 @@ namespace AutoMapperForWebApp2._2
 
             //方式一：单个注册
             //services.AddAutoMapper(typeof(UserProfile));
+            //方式二：多个注册
             //services.AddAutoMapper(typeof(UserProfile), typeof(UserProfile));
 
-            //方式二：批量注册，继承接口IProfile
+            //方式三：批量注册，继承接口IProfile
             services.AddAutoMapper(typeof(IProfile));
         }
 
