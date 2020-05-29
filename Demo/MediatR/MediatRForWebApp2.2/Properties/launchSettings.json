@@ -3,8 +3,8 @@
   "profiles": {
     "MediatRForWebApp2._2": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "api/values",
+      //"launchBrowser": true,
+      //"launchUrl": "api/values",
       "applicationUrl": "http://localhost:15000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
