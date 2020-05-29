@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoMapper", "AutoMapper", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidationWebApp2.2", "Demo\FluentValidation\FluentValidationWebApp2.2\FluentValidationWebApp2.2.csproj", "{097F7675-F341-455C-A121-83BD63E0CF01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperForWebApp2.2", "Demo\AutoMapper\AutoMapperForWebApp2.2\AutoMapperForWebApp2.2.csproj", "{735B3A3C-21E4-4727-87CF-7755EFBAA7A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperForWebApp2.2", "Demo\AutoMapper\AutoMapperForWebApp2.2\AutoMapperForWebApp2.2.csproj", "{4B4187B0-B2B0-4CB0-91ED-2DBBC44AF240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,10 @@ Global
 		{097F7675-F341-455C-A121-83BD63E0CF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{097F7675-F341-455C-A121-83BD63E0CF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{097F7675-F341-455C-A121-83BD63E0CF01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{735B3A3C-21E4-4727-87CF-7755EFBAA7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{735B3A3C-21E4-4727-87CF-7755EFBAA7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{735B3A3C-21E4-4727-87CF-7755EFBAA7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{735B3A3C-21E4-4727-87CF-7755EFBAA7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4187B0-B2B0-4CB0-91ED-2DBBC44AF240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4187B0-B2B0-4CB0-91ED-2DBBC44AF240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4187B0-B2B0-4CB0-91ED-2DBBC44AF240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4187B0-B2B0-4CB0-91ED-2DBBC44AF240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,7 +52,7 @@ Global
 		{3DCFA83A-4421-442E-94D3-08E135187985} = {3C9C39EF-3DD0-486C-ABFA-AA5103519227}
 		{6426CFDA-C206-4017-897B-2C2BAD7ECF38} = {3C9C39EF-3DD0-486C-ABFA-AA5103519227}
 		{097F7675-F341-455C-A121-83BD63E0CF01} = {3DCFA83A-4421-442E-94D3-08E135187985}
-		{735B3A3C-21E4-4727-87CF-7755EFBAA7A8} = {6426CFDA-C206-4017-897B-2C2BAD7ECF38}
+		{4B4187B0-B2B0-4CB0-91ED-2DBBC44AF240} = {6426CFDA-C206-4017-897B-2C2BAD7ECF38}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EE58DF5-341E-45B9-AD3A-B8423B8A262A}
