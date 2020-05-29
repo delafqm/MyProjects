@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace AutoMapperForWebApp2._2
+namespace FluentValidationWebApp2._2
 {
     public class Program
     {
