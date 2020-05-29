@@ -10,7 +10,11 @@ namespace FluentValidationWebApp2._2.Models.Command
     {
         public UserCommandValidation()
         {
+            //需要验证哪些
             ValidateName();
+
+            //其它验证
+            //ValidateOther();
         }
     }
 }

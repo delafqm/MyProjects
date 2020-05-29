@@ -27,6 +27,7 @@ namespace FluentValidationWebApp2._2.Controllers
             UserCommand userCommand = new UserCommand();
             List<string> errorInfo = new List<string>();
 
+            //手动调用验证
             if (!userCommand.IsValid(user))
             {
                 foreach (var error in userCommand.validationResult.Errors)

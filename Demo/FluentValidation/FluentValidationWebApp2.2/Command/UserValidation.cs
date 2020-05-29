@@ -15,5 +15,10 @@ namespace FluentValidationWebApp2._2.Models.Command
                 .NotEmpty().WithMessage("名字不能为空")
                 .Length(4, 10).WithMessage("长度必需在4~10字符之间");
         }
+
+        //其它验证条件
+        //protected void ValidateOther()
+        //{
+        //}
     }
 }
