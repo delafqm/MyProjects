@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "PostgreWebApp2._2": {
+      "commandName": "Project",
+      //"launchBrowser": true,
+      //"launchUrl": "weatherforecast",
+      "applicationUrl": "http://localhost:15000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
