@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "Demo\MongoDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postgre", "Postgre", "{EB4C50AA-7238-4CC3-955A-79E471E09AAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreWebApp2.2", "Demo\Postgre\PostgreWebApp2.2\PostgreWebApp2.2.csproj", "{1B15923E-FD6B-4D04-8FBF-14EA0A632A07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreWebApp2.2", "Demo\Postgre\PostgreWebApp2.2\PostgreWebApp2.2.csproj", "{1B15923E-FD6B-4D04-8FBF-14EA0A632A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullSearchApp", "Demo\Postgre\FullSearchApp\FullSearchApp.csproj", "{B026EC37-730B-4986-9F01-05AA933DEA5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,10 @@ Global
 		{1B15923E-FD6B-4D04-8FBF-14EA0A632A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B15923E-FD6B-4D04-8FBF-14EA0A632A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B15923E-FD6B-4D04-8FBF-14EA0A632A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B026EC37-730B-4986-9F01-05AA933DEA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B026EC37-730B-4986-9F01-05AA933DEA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B026EC37-730B-4986-9F01-05AA933DEA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B026EC37-730B-4986-9F01-05AA933DEA5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +161,7 @@ Global
 		{FD1E4E35-0FA1-49A9-AB32-4526F5763BFC} = {EFC1DDF5-869B-47AF-80EC-B4C677D7DA6C}
 		{EB4C50AA-7238-4CC3-955A-79E471E09AAA} = {3C9C39EF-3DD0-486C-ABFA-AA5103519227}
 		{1B15923E-FD6B-4D04-8FBF-14EA0A632A07} = {EB4C50AA-7238-4CC3-955A-79E471E09AAA}
+		{B026EC37-730B-4986-9F01-05AA933DEA5C} = {EB4C50AA-7238-4CC3-955A-79E471E09AAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EE58DF5-341E-45B9-AD3A-B8423B8A262A}
